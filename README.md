@@ -19,12 +19,4 @@ Archivi di documenti con un nome (es. "Caldaia", "Auto", "Contratti") a cui fare
 |---|---|
 | ![Archivio](docs/screenshot-1.png) | ![Telefono](docs/screenshot-telefono.png) |
 
-## Come è fatto
-
-- **Interfaccia**: una singola pagina HTML/JavaScript senza framework (`index.html`).
-- **Versione completa**: backend su **Google Apps Script**; documenti e testo estratto salvati in Google Drive, risposte da **Google Gemini** (piano gratuito) con trascrizione dei file non testuali e OCR di Drive come riserva.
-- **Demo**: `demo-run.js` sostituisce il backend con un archivio nel browser; al posto della risposta dell'AI mostra i passaggi più pertinenti dei documenti, con la stessa citazione.
-
----
-
 Progetto di [Andrea Pollastrelli](https://andreapollastrelli95.github.io/).
